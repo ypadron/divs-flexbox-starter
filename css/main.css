@@ -113,19 +113,34 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  background-color: #191970;
+  padding-top: 3%;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  align-items: top;
+  color: ghostwhite;
+  /* line-height: 1.5em; */
+  line-height: 1.2em;
+  /* font-size: 1.6em; */
+  font-size: 1em;
+  /* background-color: #f16059; */
+  /* background-color: #191970; */
   height: 300px;
-  width: 30%;
+  width: 33.3%;
+}
+
+.vertical  {
+  border-right: 1px solid #B0C4DE;
+  height: 260px;
+}
+
+p {
+  width: 90%;
+  font-weight: 400;
 }
 
 
