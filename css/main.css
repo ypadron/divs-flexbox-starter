@@ -131,7 +131,7 @@ span  {
 }
 
 header,
-/* main, */
+main,
 footer {
   display: flex;
   justify-content: flex-start;
@@ -147,7 +147,8 @@ footer {
 main  {
   /* background-color: #191970; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
   /* height: 250px; */
   width: 100%;
   font-size: 1.5em;
